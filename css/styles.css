@@ -1,0 +1,336 @@
+    body {
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        -webkit-font-smoothing: none;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    
+    .scrollbar {
+        padding: 1rem;
+        background: white;
+        height: 250px;
+        overflow: auto;
+    }
+    
+    .force-overflow {
+        min-height: 450px;
+    }
+    
+    .bg-smokey {
+        background-color: #f5f5f5;
+    }
+    
+    .tm-bg-img-content {
+        background-color: #fdd006;
+        background-repeat: repeat;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    a,
+    button {
+        transition: all 0.3s ease;
+    }
+    
+    a:focus,
+    a:hover {
+        color: #f5f5f5;
+        outline: none;
+    }
+    
+    img.circle {
+        border-radius: 25%;
+    }
+    
+    .container {
+        max-width: 1040px;
+    }
+    
+    @media (max-width: 767px) {
+        .navbar {
+            padding: 0;
+        }
+        .tm-rounded {
+            border-radius: 10px;
+        }
+        .tm-header-container {
+            padding-bottom: 3%;
+            margin-bottom: 5%;
+        }
+    }
+    /* 0. Sticky Header
+--------------------------*/
+    
+    .tm-header-container {
+        position: relative;
+        padding-bottom: 6rem;
+    }
+    
+    @media (max-width: 991px) {
+        .tm-header-container {
+            margin-bottom: 5%;
+        }
+    }
+    
+    .tm-navbar-row {
+        z-index: 1000;
+    }
+    
+    .tm-navbar-row.sticky .navbar {
+        padding: 0;
+    }
+    
+    .tm-navbar-row.sticky .nav {
+        overflow: auto;
+        font-size: 1rem;
+        padding-top: 1%;
+    }
+    
+    @media (min-width: 768px) {
+        .tm-navbar-row {
+            height: 88px;
+        }
+        .tm-navbar-row-absolute {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .tm-navbar-row.sticky {
+            position: fixed;
+            top: 0;
+            font-size: 0.6em;
+            height: 54px;
+            background-color: #fdd006;
+        }
+    }
+    /* 1. Site header 
+--------------------------*/
+    
+    .tm-site-container {
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+        padding-bottom: 4%
+    }
+    
+    .tm-site-intro {
+        font-size: 2rem
+    }
+    
+    .tm-site-title {
+        font-size: 7rem;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+    
+    .tm-site-description {
+        font-size: 1.27rem;
+        padding-bottom: 1rem;
+    }
+    
+    .tm-site-contact {
+        font-size: 1rem;
+    }
+    /* 2. Navigation
+-------------------------*/
+    
+    .nav {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    
+    .nav-logo {
+        height: auto;
+        max-width: 2.1rem;
+        max-height: 2.1rem;
+        margin-bottom: 3rem;
+        margin-left: 3%;
+    }
+    
+    .resume {
+        font-size: 1.25;
+    }
+    
+    @media (max-width: 991px) and (min-width: 767px) {
+        .nav {
+            font-size: 1rem;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .nav {
+            font-size: 1rem;
+        }
+        .navbar-nav .nav-item+.nav-item {
+            margin-left: 0;
+        }
+    }
+    /* 3. About me
+---------------------*/
+    
+    #about {
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+    
+    @media (max-width: 767px) {
+        #about {
+            padding-top: 10%;
+        }
+    }
+    
+    .about-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .bg-white-box {
+        border-radius: 25px;
+        width: auto;
+        max-width: 70%;
+        padding-bottom: 5%;
+        background-color: white;
+        box-shadow: 3px 3px;
+    }
+    
+    .about-intro {
+        font-size: 2.5rem;
+        white-space: nowrap;
+        padding-bottom: 5%;
+    }
+    
+    .about-col-text {
+        margin-top: 4%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .about-description {
+        font-size: 1.25rem;
+    }
+    
+    .profile-pic {
+        display: flex;
+        justify-content: nowrap;
+        padding-top: 6.5%;
+        width: auto;
+        height: auto;
+        max-width: 50%;
+        max-height: 50%;
+    }
+    /* 3. experience
+----------------------------------------*/
+    
+    #experience {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .experience-container {
+        padding-bottom: 5%;
+    }
+    
+    .job-experience {
+        border-radius: 25px;
+        width: auto;
+        max-width: 70%;
+        background-color: white;
+        box-shadow: 3px 3px;
+        margin-bottom: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 5%;
+    }
+    
+    .tm-3-col-text-company {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+    
+    .tm-3-col-text-job {
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+        font-weight: bolder;
+    }
+    
+    .tm-3-col-text-description {
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.8;
+        margin-bottom: 3%;
+    }
+    
+    .skill {
+        font-size: 1rem;
+        padding: 7px 12px;
+        border-radius: 25px;
+        border: 1px solid #45b6fe;
+    }
+    
+    .framework {
+        border: 1px solid #77dd77;
+    }
+    /* 5. contact 
+--------------*/
+    
+    #contact {
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    
+    .contact-col-text {
+        margin: auto;
+        background-color: white;
+        border-radius: 25px;
+        width: auto;
+        max-width: 50%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    .contact-title {
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-bottom: 1.5%;
+    }
+    
+    .contact-description {
+        font-size: 1.25rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    /* 6. footer
+--------------*/
+    
+    footer {
+        padding: 1%;
+    }
+    
+    .social-icons-container {
+        margin-top: 20px;
+    }
+    
+    .social-icon-link {
+        background-color: transparent;
+        color: #949494;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .social-icon-link:hover,
+    .social-icon-link:focus {
+        color: #fdfd96;
+    }
+    
+    .tm-footer-text {
+        color: #949494;
+        font-size: 10px;
+    }
