@@ -94,7 +94,7 @@
             height: 88px;
         }
         .tm-navbar-row-absolute {
-            position: absolute;
+            
             left: 0;
             right: 0;
             bottom: 0;
@@ -110,30 +110,28 @@
     /* 1. Site header 
 --------------------------*/
     
-    .tm-site-container {
+    .site-container {
         color: black;
         display: flex;
         justify-content: center;
-        margin: 10%;
-        padding-bottom: 4%
+        padding-bottom: 15%
     }
     
-    .tm-site-intro {
+    .site-intro {
         font-size: 2rem
     }
     
-    .tm-site-title {
+    .site-title {
         font-size: 7rem;
-        white-space: nowrap;
         font-weight: bold;
     }
     
-    .tm-site-description {
+    .site-description {
         font-size: 1.27rem;
         padding-bottom: 1rem;
     }
     
-    .tm-site-contact {
+    .site-contact {
         font-size: 1rem;
     }
     /* 2. Navigation
@@ -141,7 +139,7 @@
     
     .nav {
         font-size: 1rem;
-        white-space: nowrap;
+        float: right;
     }
     
     .nav-logo {
@@ -149,8 +147,9 @@
         max-width: 2.1rem;
         max-height: 2.1rem;
         margin-bottom: 3rem;
-        margin-left: 3%;
+        
     }
+    
     
     .resume {
         font-size: 1.25;
@@ -174,7 +173,7 @@
 ---------------------*/
     
     #about {
-        padding-top: 5%;
+        padding-top: 10%;
         padding-bottom: 7%;
     }
     
@@ -200,7 +199,7 @@
     
     .about-intro {
         font-size: 2.5rem;
-        white-space: nowrap;
+       
         padding-bottom: 5%;
     }
     

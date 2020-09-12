@@ -8,10 +8,6 @@
     <link rel="icon" href="./assets/Duck.png">
 
     <title>Matthew Le</title>
-    <!--
-Rainbow Theme
-http://www.templatemo.com/tm-485-rainbow
--->
     <!-- load stylesheets -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
     <!-- Google web font "Open Sans" -->
@@ -30,7 +26,7 @@ http://www.templatemo.com/tm-485-rainbow
           <![endif]-->
 </head>
 
-<body class="tm-bg-img-content" data-simplebar>
+<body class="tm-bg-img-content">
 
 
     <div class="row">
@@ -39,35 +35,23 @@ http://www.templatemo.com/tm-485-rainbow
 
             <!-- 1. Navigation -->
 
-            <div class="tm-navbar-row tm-navbar-row-absolute">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <nav class="navbar navbar-full">
-                        <section class="tm-navbar-rounded" id="tmNavbar">
-                            <a class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 nav" href="google.com">
-                                <img class="nav-logo circle" src="./assets/Duck.png" alt="logo">
-                            </a>
-                            <ul class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 nav navbar-nav">
+            <div class="tm-navbar-row tm-navbar-row-absolute container-fluid" id="tmNavbar">
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about">about</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#experience">experience</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contact">contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./assets/LeMatthew-Resume(2020).docx (1).pdf" target="_blank">resume</a>
-                                </li>
-                            </ul>
-                        </section>
+                <nav class="navbar navbar-expand-lg justify-content-end">
 
+                    <a class="navbar-brand">
+                        <img class="nav-logo" src="./assets/Duck.png" alt="logo">
+                    </a>
 
+                    <div class="nav">
+                        <div class="navbar-nav">
+                            <a class="nav-link nav-item" href="#about">about</a>
+                            <a class="nav-link nav-item" href="#experience">experience</a>
+                            <a class="nav-link nav-item" href="#contact">contact</a>
+                        </div>
+                    </div>
+                </nav>
 
-                    </nav>
-                </div>
-                <!-- col-xs-12 -->
             </div>
             <!-- tm-navbar-container -->
 
@@ -76,12 +60,12 @@ http://www.templatemo.com/tm-485-rainbow
         </div>
         <!-- .tm-header-container -->
 
-        <div class="row tm-site-container">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-xs-center">
-                <div class="tm-site-header"></div>
-                <p class="tm-site-intro">welcome! my name is...</p>
-                <h1 class="tm-site-title">matthew le</h1>
-                <p class="tm-site-description">software engineer based in northern virginia.</p>
+        <div class="row site-container">
+            <div class="align-middle text-xs-center">
+                <p class="site-intro">welcome! my name is...</p>
+                <h1 class="site-title">matthew le</h1>
+                <p class="site-description">software engineer based in northern virginia.</p>
+                <a class="nav-link" href="./assets/Le-Matthew-Resume(2020).pdf" target="_blank">resume</a>
             </div>
         </div>
 
@@ -99,7 +83,9 @@ http://www.templatemo.com/tm-485-rainbow
                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 about-col-text">
                     <h1 class="about-intro">hello! i'm matthew...</h1>
                     <p class="about-description">
-                        i enjoy solving problems and making a positive difference in the world! currently, i'm an aspiring software engineer and senior at george mason university studying computer science interested in full-stack development.
+                        i enjoy solving problems and making a positive difference in the world! currently, i'm an
+                        aspiring software engineer and senior at george mason university studying computer science
+                        interested in full-stack development.
                     </p>
                 </div>
                 <div class="profile-pic">
@@ -119,16 +105,19 @@ http://www.templatemo.com/tm-485-rainbow
                 <div class="tm-3-col-text-job">Software Engineer Intern</div>
                 <div>
                     <p class="tm-3-col-text-description">
-                        Constructed a Jenkins Pipeline that streamlines testing, and deploying Ruby Applications in Openshift environments.
+                        Constructed a Jenkins Pipeline that streamlines testing, and deploying Ruby Applications in
+                        Openshift environments.
 
                     </p>
 
                     <p class="tm-3-col-text-description">
-                        Expanded an existing web application by implementing a registration feature for team use, while also demonstrating pipeline capabilities.
+                        Expanded an existing web application by implementing a registration feature for team use, while
+                        also demonstrating pipeline capabilities.
                     </p>
 
                     <p class="tm-3-col-text-description">
-                        Enhanced security parameters for the team’s Sonarqube server by configuring SSL certificate and reverse proxy allowing it to run over HTTPS.
+                        Enhanced security parameters for the team’s Sonarqube server by configuring SSL certificate and
+                        reverse proxy allowing it to run over HTTPS.
                     </p>
                     <span class="skill">html</span>
                     <span class="skill framework">Vue.js</span>
@@ -143,7 +132,8 @@ http://www.templatemo.com/tm-485-rainbow
                 <div class="tm-3-col-text-job">Computer Science Intern</div>
                 <div>
                     <p class="tm-3-col-text-description">
-                        Managed company’s Amazon Web Services Account by configuring IAM roles and environments to clients.
+                        Managed company’s Amazon Web Services Account by configuring IAM roles and environments to
+                        clients.
                     </p>
                     <p class="tm-3-col-text-description">
                         Developed form for API testing to verify response data.
@@ -163,7 +153,8 @@ http://www.templatemo.com/tm-485-rainbow
                         Developed and tested frontend internal company website.
                     </p>
                     <p class="tm-3-col-text-description">
-                        Designed a simple VPC architecture that hosted the company's internal website on an EC2 instance and integrated security groups to enhance security parameters.
+                        Designed a simple VPC architecture that hosted the company's internal website on an EC2 instance
+                        and integrated security groups to enhance security parameters.
                     </p>
                     <span class="skill framework">AWS</span>
                     <span class="skill">html</span>
@@ -180,7 +171,8 @@ http://www.templatemo.com/tm-485-rainbow
         <div class="contact-col-text text-xs-center">
             <h2 class="contact-title">get in touch </h2>
             <p class="contact-description">
-                i am casually seeking full time offers that starts summer 2021. feel free to contact me, i'll try my best to bet back to you!
+                i am casually seeking full time offers that starts summer 2021. feel free to contact me, i'll try my
+                best to bet back to you!
             </p>
             <span class="social-icons-container">
                 <a href="https://github.com/mle24" class="social-icon-link"><i
@@ -240,10 +232,10 @@ http://www.templatemo.com/tm-485-rainbow
             if ($(window).width() > 767) {
 
                 // target at which the menu bar changes to sticky
-                var target = $("#about").offset().top - 100;
+                var target = $("#about").offset().top - 150;
 
                 // window scroll
-                $(window).scroll(function() {
+                $(window).scroll(function () {
 
                     if ($(this).scrollTop() > target) {
                         $(".tm-navbar-row").addClass("sticky");
@@ -264,12 +256,12 @@ http://www.templatemo.com/tm-485-rainbow
             });
         }
 
-        $(document).ready(function() {
+        $(document).ready(function () {
 
             prepareMenuForDesktop();
 
             // On window resize, prepare menu
-            $(window).resize(function() {
+            $(window).resize(function () {
                 prepareMenuForDesktop();
 
             });
